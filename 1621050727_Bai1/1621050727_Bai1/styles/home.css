@@ -1,0 +1,41 @@
+.banner {
+	width: 1110px; 
+	height: 300px; 
+	padding-top: 15px;
+}
+
+.home__img {
+	height: 400px;
+	width: 300px;
+}
+
+.home__p {
+	display: block;
+	border-color: green;
+	border-style: 1px solid green;
+}
+
+.home__border1 {
+	border: 2px dotted blue;
+}
+
+.home__border2 {
+	border: 2px solid green;
+}
+
+a.content {
+	color: green;
+	display: block;
+	text-decoration: none;
+	padding: 0 -10px 0 -10px;
+}
+
+a.content:hover {
+	color: red;
+	border: 2px solid red;
+}
+
+table {
+	margin: 0 auto;
+	border-spacing: 15px;
+}

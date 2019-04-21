@@ -1,0 +1,20 @@
+body {
+	word-spacing: 0.4em;
+}
+
+.text-color {
+	color: red;
+	font-weight: 600;
+	font-size: 16px;
+	padding: 25% 0;
+}
+
+.word-n {
+	font-size: 35px;
+	margin-left: 1rem;
+}
+
+.paragraph {
+	font-size: 20px;
+	margin-left: 4rem;
+}

@@ -1,0 +1,46 @@
+body {
+	word-spacing: 0.4em;
+}
+
+.title {
+	color: red;
+	font-weight: 700;
+}
+
+.author {
+	padding-left: 300px;
+	color: blue;
+}
+
+.first-letter {
+	font-weight: 500;
+	font-size: 35px;
+}
+
+.mal-1 {
+	margin-left: 70px;
+}
+
+.mal-2 {
+	margin-left: 140px;
+}
+
+.mal-3 {
+	margin-left: -40px;
+}
+
+.mal-4 {
+	margin-left: -25px;
+}
+
+.mal-5 {
+	margin-left: -10px;
+}
+
+.mal-6 {
+	margin-left: -20px;
+}
+
+.mal-7 {
+	margin-left: 15px;
+}

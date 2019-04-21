@@ -1,0 +1,203 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+blockquote,
+q {
+	quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+	margin: 0;
+}
+
+/* END RESET CSS */
+body {
+	font-size: 11px;
+	font-family: tahoma;
+}
+
+#table {
+	border-color: #8eb9ca;
+}
+
+.text-cl {
+	color: #008080;
+	font-size: 12px;
+}
+
+.bg-cl-1 {
+	color: #008080;
+	background-color: #f5f5dc;
+	font-weight: bold;
+}
+
+.bg-cl-2 {
+	color: #fff;
+	background-color: #6699cc;
+	font-weight: bold;
+}
+
+#col-w {
+	width: 125px;
+	height: 25px;
+}
+
+#col-w2 {
+	width: 59px;
+	height: 21px;
+}
+
+tr td {
+	height: 27px;
+}
+
+.color {
+	color: #808080;
+	font-style: italic;
+}
+
+.color-2 {
+	color: #808080;
+}
+
+.color-3 {
+	color: #800000;
+}
+
+.mab-1 {
+	margin-bottom: 0.8rem;
+}
+
+table,
+tr,
+td,
+th {
+	border: 1px solid #999999 !important;
+}
