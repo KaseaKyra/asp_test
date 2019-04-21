@@ -11,7 +11,11 @@ namespace B2_1621050727_DinhThiHaiYen.form
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            string day = DateTime.Now.Day.ToString();
+            string month = DateTime.Now.Month.ToString();
+            string year = DateTime.Now.Year.ToString();
+            string time = "Hôm nay: Ngày " + day + " tháng " + month + " năm " + year; 
+            lblTime.Text = time;
         }
     }
 }
