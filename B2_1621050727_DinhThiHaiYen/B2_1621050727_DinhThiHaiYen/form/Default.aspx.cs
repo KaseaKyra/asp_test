@@ -16,6 +16,20 @@ namespace B2_1621050727_DinhThiHaiYen.form
             string year = DateTime.Now.Year.ToString();
             string time = "Hôm nay: Ngày " + day + " tháng " + month + " năm " + year; 
             lblTime.Text = time;
+
+
+            string stDay = Request.Form.Get("ddlDay");
+            string stMonth = Request.Form.Get("ddlMonth");
+            string stYear = Request.Form.Get("ddlYear");
+            string email = Request.Form.Get("txbEmail");
+            string address = Request.Form.Get("txbAddress");
+            string phone = Request.Form.Get("txbPhone");
+
+            txbYearDateOfBirth.Text = stDay + "/" + stMonth + "/" + stYear;
+            txbAddress.Text = address;
+            txbEmail.Text = email;
+            txbPhone.Text = phone;
+            //string name;
         }
     }
 }

@@ -19,7 +19,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <div class="content p-2">
+                    <div class="wrap-content p-2">
                         <h6 class="text-uppercase font-weight-bold text-center">thông tin cá nhân của thành viên</h6>
                         <div class="row">
                             <div class="col-md-3">
@@ -72,6 +72,14 @@
                                             <asp:TextBox ID="txbName" runat="server" BackColor="Gray" Width="242px">
                                             </asp:TextBox>
                                         </td>
+                                    </tr>                     
+                                    <tr>
+                                        <td colspan="2" class="error">
+                                            <asp:RequiredFieldValidator ID="RequiredFieldValidator1" 
+                                                runat="server" 
+                                                ErrorMessage="RequiredFieldValidator" 
+                                                ControlToValidate="txbName">Không được để trống trường này</asp:RequiredFieldValidator>
+                                        </td>
                                     </tr>
                                     <%--ngày sinh--%>
                                     <tr>
@@ -122,9 +130,9 @@
                                         <td>
                                             <%--button--%>
                                             <asp:Button ID="btnOk" runat="server" Text="Đồng ý" 
-                                                CssClass="btn-dark px-4 mr-3" />
+                                                CssClass="btn-dark my-3 px-4 mr-3" />
                                             <asp:Button ID="btnCancel" runat="server" Text="Hủy" 
-                                                CssClass="btn-dark px-4" OnClick="btnCancel_Click" />
+                                                CssClass="btn-dark my-3 px-4" OnClick="btnCancel_Click" />
                                         </td>
                                     </tr>
                                 </table>

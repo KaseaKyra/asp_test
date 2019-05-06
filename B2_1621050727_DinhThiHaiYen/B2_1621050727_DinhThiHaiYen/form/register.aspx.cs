@@ -36,6 +36,10 @@ namespace B2_1621050727_DinhThiHaiYen.form
 
         protected void btnCancel_Click(object sender, EventArgs e)
         {
+            txbAddress.Text = "";
+            txbEmail.Text = "";
+            txbName.Text = "";
+            txbPhone.Text = "";
             txbName.Focus();
         }
     }

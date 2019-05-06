@@ -31,40 +31,40 @@ namespace B2_1621050727_DinhThiHaiYen.form {
         protected global::System.Web.UI.WebControls.Label lblGreen1;
         
         /// <summary>
-        /// yearDateOfBirth control.
+        /// txbYearDateOfBirth control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox yearDateOfBirth;
+        protected global::System.Web.UI.WebControls.TextBox txbYearDateOfBirth;
         
         /// <summary>
-        /// txtEmail control.
+        /// txbEmail control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtEmail;
+        protected global::System.Web.UI.WebControls.TextBox txbEmail;
         
         /// <summary>
-        /// txtPhone control.
+        /// txbPhone control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtPhone;
+        protected global::System.Web.UI.WebControls.TextBox txbPhone;
         
         /// <summary>
-        /// txtAddress control.
+        /// txbAddress control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtAddress;
+        protected global::System.Web.UI.WebControls.TextBox txbAddress;
         
         /// <summary>
         /// lblGreen2 control.

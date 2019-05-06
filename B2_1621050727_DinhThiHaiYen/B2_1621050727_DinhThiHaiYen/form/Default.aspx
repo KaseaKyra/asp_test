@@ -31,19 +31,19 @@
                     <div class="col-md-9">
                         <div class="font-weight-bold">Ngày sinh:</div>
                         <div>
-                            <asp:TextBox ID="yearDateOfBirth" runat="server" CssClass="txb-width"></asp:TextBox>
+                            <asp:TextBox ID="txbYearDateOfBirth" runat="server" CssClass="txb-width"></asp:TextBox>
                         </div>
                         <div class="font-weight-bold">Email:</div>
                         <div>
-                            <asp:TextBox ID="txtEmail" runat="server" CssClass="txb-width"></asp:TextBox>
+                            <asp:TextBox ID="txbEmail" runat="server" CssClass="txb-width"></asp:TextBox>
                         </div>
                         <div class="font-weight-bold">Điện thoại:</div>
                         <div>
-                            <asp:TextBox ID="txtPhone" runat="server" CssClass="txb-width"></asp:TextBox>
+                            <asp:TextBox ID="txbPhone" runat="server" CssClass="txb-width"></asp:TextBox>
                         </div>
                         <div class="font-weight-bold">Địa chỉ:</div>
                         <div>
-                            <asp:TextBox ID="txtAddress" runat="server" CssClass="txb-width"></asp:TextBox>
+                            <asp:TextBox ID="txbAddress" runat="server" CssClass="txb-width"></asp:TextBox>
                         </div>
                     </div>
                 </div>

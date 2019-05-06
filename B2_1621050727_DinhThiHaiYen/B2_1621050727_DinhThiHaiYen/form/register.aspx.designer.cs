@@ -40,6 +40,15 @@ namespace B2_1621050727_DinhThiHaiYen.form {
         protected global::System.Web.UI.WebControls.TextBox txbName;
         
         /// <summary>
+        /// RequiredFieldValidator1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator1;
+        
+        /// <summary>
         /// ddlDay control.
         /// </summary>
         /// <remarks>
